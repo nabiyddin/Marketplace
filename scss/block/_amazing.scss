@@ -1,0 +1,128 @@
+#amazing {
+  padding: 92px 111px;
+  background: #090f1d;
+
+  .texts-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    h1 {
+      width: 40%;
+      font-size: 48px;
+      line-height: 58px;
+      font-weight: 500;
+      color: var(--light-silver-color);
+    }
+
+    span {
+      color: var(--light-green-color);
+    }
+
+    .btn {
+      padding: 16px 40px;
+      color: var(--white-color);
+      background: var(--light-green-color);
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      line-height: 19px;
+      font-family: var(--inter-font);
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.5s ease;
+    }
+
+    .btn:hover {
+      color: var(--light-green-color);
+      background: var(--white-color);
+    }
+  }
+
+  .cards-wrapper {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    .card {
+      padding: 20px;
+      background: var(--ink-color);
+      border-radius: 28px;
+      border-top: 1px solid var(--light-green-color);
+
+      .card-title {
+        margin-top: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--light-silver-color);
+        font-weight: 700;
+
+        p {
+          font-size: 24px;
+          line-height: 29px;
+        }
+
+        span {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          font-size: 16px;
+          line-height: 19px;
+          font-family: var(--inter-font);
+        }
+      }
+
+      .card-button-wrapper {
+        margin-top: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .info {
+          p {
+            color: var(--dark-gray-color);
+            font-size: 14px;
+            line-height: 23px;
+            font-weight: 400;
+          }
+
+          .clock {
+            margin-top: 4px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            p {
+              font-size: 16px;
+              line-height: 19px;
+              font-weight: 700;
+              color: var(--light-silver-color);
+            }
+          }
+        }
+
+        .card-btn {
+          font-size: 16px;
+          line-height: 19px;
+          font-weight: 700;
+          font-family: var(--inter-font);
+          color: var(--light-green-color);
+          padding: 14px 40px;
+          border: 1px solid var(--light-green-color);
+          border-radius: 8px;
+          background: transparent;
+          cursor: pointer;
+          transition: all 0.5s ease;
+        }
+
+        .card-btn:hover {
+          color: var(--ink-color);
+          background: var(--light-green-color);
+        }
+      }
+    }
+  }
+}

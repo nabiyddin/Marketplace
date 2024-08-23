@@ -1,0 +1,61 @@
+:root {
+  --canela-font: "Canela";
+  --inter-font: "Inter";
+  --white-color: #ffffff;
+  --light-green-color: #d6ef0e;
+  --light-silver-color: #fffffd;
+  --ink-color: #131e3a;
+  --dark-gray-color: #838382;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1512px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.huge-container {
+  max-width: 1512px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--canela-font);
+}
+
+p {
+  font-family: var(--inter-font);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
